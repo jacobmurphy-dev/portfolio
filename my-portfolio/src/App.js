@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <Navbar />
       <WIP />
-      {/*<Hero /> 
+      {/*<Hero />
       <UniProject />
       <TeamworkEvidence />
       <IndustryEngagement />

@@ -6,7 +6,9 @@ function WIP() {
       <h1 className="display-4 fw-bold lh-1 text-body-emphasis pb-5">
         This page is still under construction.
         <br />
-        Please check back later, Thanks
+        Please check back later,
+        <br />
+        Thanks
       </h1>
     </div>
   );
