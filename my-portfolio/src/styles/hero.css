@@ -1,0 +1,13 @@
+.hero-container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}  
+
+.right-col{
+    margin-right: 1%;
+}
+.portfolio-Image{
+    width: 400px;
+    height: auto;
+}
