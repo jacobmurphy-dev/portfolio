@@ -3,8 +3,8 @@ import React from "react";
 function uniProject() {
   return (
     <div
-      className="row mx-auto mt-4 p-5 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg"
-      style={{ width: "75%" }}
+      className="row mx-auto mt-4 pt-5 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded"
+      style={{ width: "100%", maxWidth: "1920px" }}
     >
       <h1 className="display-6 fw-bold lh-1 text-body-emphasis pb-5">
         University Projects

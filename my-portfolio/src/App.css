@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background: #fafafa;
 }
 
 .App-logo {
@@ -35,4 +36,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.horizontalDivider {
+  width: 60%;
+  justify-content: center;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  opacity: .2;
 }

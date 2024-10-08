@@ -13,11 +13,17 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-       {/*<WIP />*/}
-     <Hero />
+      <WIP />
+      {/*
+      <Hero />
+      <hr className="horizontalDivider" />
+      {" "}
       <UniProject />
+      <hr className="horizontalDivider" />
       <TeamworkEvidence />
+      <hr className="horizontalDivider" />
       <IndustryEngagement />
+      */}
       <Footer />
     </div>
   );

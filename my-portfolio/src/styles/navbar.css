@@ -1,3 +1,10 @@
-.navigation{
-    margin-bottom: 5%;
+.navigation {
+  margin-bottom: 5%;
+}
+
+
+.navBG{
+    background-image: url("../images/contrast-blue.svg");
+    background-repeat: no-repeat;
+    background-size: cover; /* Make it cover the entire navbar */
 }

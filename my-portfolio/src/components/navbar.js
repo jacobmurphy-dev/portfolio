@@ -6,15 +6,15 @@ import "../styles/navbar.css";
 
 function NavigationBar() {
   return (
-    <Navbar bg="dark" variant="dark" expand="lg" className="navigation">
+    <Navbar bg="dark" variant="dark" expand="lg" className="fixed-top navBG">
       <Container>
-        <Navbar.Brand href="#home">Jacob Murphy</Navbar.Brand>
+        <Navbar.Brand href="/portfolio">Jacob Murphy</Navbar.Brand>
         {/* Toggle button for small screens */}
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#about">About Me</Nav.Link>
+          <Nav className="ms-auto ">
+            <Nav.Link href="/portfolio">Home</Nav.Link>
+            <Nav.Link href="/portfolio/about">About Me</Nav.Link>
             <Nav.Link
               href="https://github.com/JM061"
               target="_blank"

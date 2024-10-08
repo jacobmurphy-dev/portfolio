@@ -1,14 +1,18 @@
 .hero-container {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2%;
-}  
-
-.right-col{
-    margin-right: 1%;
+  background-color: white;
 }
-.portfolio-Image{
-    width: 400px;
-    height: auto;
+
+.right-col {
+  margin-right: 1%;
+}
+
+.profileIMG {
+  width: 70%; /* Default for full screen */
+}
+
+@media (max-width: 768px) {
+  /* Adjust when the screen width is below 768px */
+  .profileIMG {
+    width: 90%;
+  }
 }

@@ -2,7 +2,7 @@ import React from "react";
 
 function footer() {
   return (
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4  ms-5 me-5 border-top">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 ms-5 me-5 border-top mb-0">
       <div class="col-md-4 d-flex align-items-center">
         <a
           href="/"

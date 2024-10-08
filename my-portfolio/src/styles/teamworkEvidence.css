@@ -1,0 +1,23 @@
+/* Truncate the text and show ellipsis when collapsed */
+.collapsed {
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Show 3 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-height: 4.5em; /* Adjust the height to fit 3 lines */
+}
+
+/* Show full content when expanded */
+.expanded {
+  max-height: none;
+}
+
+/* Adjust padding and spacing for mobile */
+@media (max-width: 768px) {
+  .collapsed, .expanded {
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 1.5em; /* Adjust line spacing */
+  }
+}
