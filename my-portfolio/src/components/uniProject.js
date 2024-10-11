@@ -1,4 +1,5 @@
 import React from "react";
+import Project from "./project";
 
 function uniProject() {
   return (
@@ -10,17 +11,7 @@ function uniProject() {
         University Projects
       </h1>
       {/* Project 1 */}
-      <project className="universityProject">
-        <div className="col-lg-6 p-3 p-lg-5 pt-lg-3">
-          <h2 className="display-10 fw-bold lh-1 text-body-emphasis pb-2">
-            Mobile Application Development
-          </h2>
-          <p className="lead">
-            Description of the project that we created in this class: Online
-            Store using FakeStoreAPI React Native, Redux
-          </p>
-        </div>
-      </project>
+      <Project className="universityProject" projectTitle={"Mobile Application Development"} projectDescription={"Description of the project that we created in this class: Online Store using FakeStoreAPI React Native, Redux"} />
       {/* Project 2 */}
       <project className="universityProject">
         <div className="col-lg-6 p-3 p-lg-5 pt-lg-3">

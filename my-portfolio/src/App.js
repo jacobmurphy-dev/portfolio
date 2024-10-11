@@ -8,25 +8,19 @@ import IndustryEngagement from "./components/industryEngagement";
 import Footer from "./components/footer";
 import WIP from "./components/WIP";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Home from "./pages/home";
+import AboutMe from "./pages/aboutMe";
+import { Route, Switch, Link } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <WIP />
-      {/*
-      <Hero />
-      <hr className="horizontalDivider" />
-      {" "}
-      <UniProject />
-      <hr className="horizontalDivider" />
-      <TeamworkEvidence />
-      <hr className="horizontalDivider" />
-      <IndustryEngagement />
-      */}
-      <Footer />
+      <Home />
     </div>
+    
   );
+
+  
 }
 
 export default App;
