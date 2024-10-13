@@ -2,9 +2,6 @@
    display: flex; /* Use flexbox to control layout */
   flex-direction: column; /* Stack children vertically */
   justify-content: center; /* Center content vertically */
-  align-items: center; /* Center content horizontally */
   min-height: calc(100vh - 135px); /* Adjust this based on navbar and footer height */
   background-color: #f8f9fa; /* Optional: Background color */
-  z-index: 1; /* Ensure it’s above other content */
-  overflow: hidden; /* Prevent scrolling */
 }

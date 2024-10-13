@@ -1,0 +1,30 @@
+
+
+/*Styles for Work Experiences and Industry Engagement*/
+.work-experience-panel {
+  max-width: 800px; /* Max width for larger screens */
+  width: 100%; /* Make the container take full width */
+  padding: 1.5rem; /* Base padding */
+}
+
+@media (max-width: 768px) {
+  .work-experience-panel {
+    max-width: 95%; /* Use almost full width on mobile */
+    padding: 0px; /* Reduce padding on mobile */
+  }
+}
+
+@media (min-width: 768px) {
+  .work-experience-panel {
+    padding: 2rem; /* More padding for larger screens */
+  }
+}
+
+  
+ @media (max-width: 768px) {
+    .workExperienceContainer {
+      margin-left: 5%;
+      margin-right: 5%;
+      line-height: 1.5em; /* Adjust line spacing */
+    }
+  }

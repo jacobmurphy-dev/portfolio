@@ -14,7 +14,7 @@ function NavigationBar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto ">
             <Nav.Link href="/portfolio">Home</Nav.Link>
-            <Nav.Link href="/portfolio/about">About Me</Nav.Link>
+            <Nav.Link href="/portfolio/about" disabled>About Me</Nav.Link>
             <Nav.Link
               href="https://github.com/JM061"
               target="_blank"
