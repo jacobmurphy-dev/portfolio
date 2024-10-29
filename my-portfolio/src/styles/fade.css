@@ -1,0 +1,11 @@
+
+.fade-in-section {
+    opacity: 0;
+    transform: translateY(20px); /* Move element down slightly */
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out; /* Smooth transition */
+  }
+  
+  .fade-in-section.is-visible {
+    opacity: 1;
+    transform: translateY(0); /* Slide up to its natural position */
+  }

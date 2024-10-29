@@ -1,9 +1,11 @@
 import React from "react";
 import "../styles/hero.css";
 import jacobmurphy from "../images/JacobMurphy_Photo.jpg";
-
+import FadeInComponent from "./fadeInComponent";
 function hero() {
   return (
+    <FadeInComponent>
+
     <div
       className="row mx-auto mt-5 pb-5 pe-lg-0 pt-lg-5 align-items-center rounded-3 "
       style={{
@@ -32,7 +34,9 @@ function hero() {
         <img className="rounded profileIMG" src={jacobmurphy} alt="" />
       </div>
       {/**/}
-    </div>
+      </div>
+      </FadeInComponent>
+
   );
 }
 

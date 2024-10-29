@@ -1,11 +1,18 @@
 .App {
   text-align: center;
-  background: #fafafa;
+  /* background: #fafafa; */
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.content {
+  position: relative;
+  z-index: 1; /* Ensure content is above the background */
+  padding: 20px;
+  color: #fff; /* Change text color for better contrast */
 }
 
 @media (prefers-reduced-motion: no-preference) {

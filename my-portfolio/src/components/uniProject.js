@@ -1,8 +1,11 @@
 import React from "react";
 import Project from "./project";
+import FadeInComponent from "./fadeInComponent";
 
 function uniProject() {
   return (
+    <FadeInComponent>
+
     <div
       className="row mx-auto mt-4 pt-5 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded"
       style={{ width: "100%", maxWidth: "1920px" }}
@@ -42,7 +45,9 @@ function uniProject() {
 
 
 
-    </div>
+      </div>
+      </FadeInComponent>
+
   );
 }
 

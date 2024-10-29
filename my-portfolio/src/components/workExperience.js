@@ -1,7 +1,7 @@
 import React from "react";
 import ExperiencePanel from "./experiencePanel";
 import "../styles/styles.css";
-
+import FadeInComponent from "./fadeInComponent";
 function WorkExperience() {
     const workExperience = [
       {
@@ -31,6 +31,7 @@ function WorkExperience() {
     ];
 
   return (
+    <FadeInComponent>
     <div
       className="workExperienceContainer row mx-auto mt-4 pb-5 pt-5  pe-lg-0 pt-lg-5 align-items-center"
       style={{ width: "100%", maxWidth: "1920px" }}
@@ -43,7 +44,8 @@ function WorkExperience() {
           <ExperiencePanel key={index} {...experience} />
         ))}
       </div>
-    </div>
+      </div>
+      </FadeInComponent>
   );
 }
 
