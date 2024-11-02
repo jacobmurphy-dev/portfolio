@@ -1,3 +1,5 @@
+import React from 'react';
+
 const LoadingScreen = () => (
   <div
     style={{
@@ -11,27 +13,22 @@ const LoadingScreen = () => (
       <defs>
         <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
           <stop offset="0%" style={{ stopColor: "#3498db", stopOpacity: 1 }} />
-          <stop
-            offset="100%"
-            style={{ stopColor: "#2ecc71", stopOpacity: 1 }}
-          />
+          <stop offset="100%" style={{ stopColor: "#2ecc71", stopOpacity: 1 }} />
         </linearGradient>
         <style>
           {`
-              @keyframes fadeIn {
-                0% { opacity: 0; }
-                50% { opacity: 1; }
-                100% { opacity: 1; }
-              }
-              @keyframes fadeOut {
-                0% { opacity: 1; }
-                50% { opacity: 1; }
-                100% { opacity: 0; }
-              }
-              .fade {
-                animation: fadeIn 1.5s ease-in forwards, fadeOut 1.5s ease-in forwards 1.5s;
-              }
-            `}
+            @keyframes fadeIn {
+              0% { opacity: 0; }
+              100% { opacity: 1; }
+            }
+            @keyframes fadeOut {
+              0% { opacity: 1; }
+              100% { opacity: 0; }
+            }
+            .fade {
+              animation: fadeIn 1.5s ease-in forwards, fadeOut 1.5s ease-in forwards 1.5s; /* Delay fade out until fade in completes */
+            }
+          `}
         </style>
       </defs>
 

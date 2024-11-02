@@ -10,10 +10,8 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Simulate a loading process (e.g., fetching data)
     const loadApp = async () => {
-      // Simulate a delay (e.g., fetching data)
-      await new Promise(resolve => setTimeout(resolve, 3000)); // Simulates loading for 3 seconds
+      await new Promise((resolve) => setTimeout(resolve, 3000)); // Simulates loading for 3 seconds
       setLoading(false); // Set loading to false after loading is complete
     };
 
@@ -21,16 +19,11 @@ function App() {
   }, []);
 
   if (loading) {
-    return <LoadingScreen />; // Show loading screen while loading
+    return <LoadingScreen />; // Show loading screen while loading  <SvgBackground />
   } else {
-
-
-
-
-
     return (
       <div className="App">
-        <Home />
+        <Home />  
       </div>
     );
   }

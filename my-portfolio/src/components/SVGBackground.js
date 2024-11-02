@@ -1,7 +1,6 @@
 import React from 'react';
 import '../styles/SvgBackground.css'; // Make sure to create this CSS file
-import BackgroundSVG from "../images/Animated Shape.svg";
-
+import { ReactComponent as BackgroundSVG } from "../images/bg-svg.svg"; // Use this for SVGR
 
 const SvgBackground = () => {
   return (
