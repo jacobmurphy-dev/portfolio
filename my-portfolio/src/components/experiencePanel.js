@@ -7,7 +7,7 @@ function ExperiencePanel({
   endDate,
   jobTitle,
   companyDescription,
-  fullDescription,
+  jobRole,
   images,
 }) {
   const [expanded, setExpanded] = useState(false); // Control expanded state
@@ -28,7 +28,7 @@ function ExperiencePanel({
       {/* Show additional content if expanded */}
       {expanded && (
         <div className="additional-content mt-3">
-          <p>{fullDescription}</p>
+          <p>{jobRole}</p>
           <div className="image-gallery"></div>
         </div>
       )}

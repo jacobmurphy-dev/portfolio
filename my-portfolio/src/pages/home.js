@@ -15,15 +15,17 @@ function Home() {
       <Navbar />
       {/*
       <WIP />
-      
+      <TeamworkEvidence />
+            <hr className="horizontalDivider" />
+                  <IndustryEngagement />
+
+
         */}
       <Hero />
-      <hr className="horizontalDivider" /> <UniProject />
       <hr className="horizontalDivider" />
-      <TeamworkEvidence />
+      <UniProject />
       <hr className="horizontalDivider" />
       <WorkExperience />
-      <IndustryEngagement />
       <Footer />
     </div>
   );
